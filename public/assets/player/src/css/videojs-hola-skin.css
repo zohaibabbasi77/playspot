@@ -1,0 +1,86 @@
+@import url("node_modules/@hola.org/videojs-hola-skin/dist/css/videojs-hola-skin.css");
+
+.vjs5-hola-skin .hola-circle-icon {
+  display: block;
+  width: 1em;
+  height: 1em;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 0.3em;
+  border-color: #fff;
+  background: #ffc511 !important;
+}
+
+.vjs5-hola-skin .vjs-big-play-button:hover .vjs-button-icon {
+  fill: none !important;
+  background: #facd47 !important;
+}
+
+.vjs5-hola-skin .vjs-progress-control .vjs-play-progress:before,
+.vjs5-hola-skin .vjs-progress-control .vjs-mouse-display:before {
+  content: none;
+  display: block;
+  width: 1em;
+  height: 1em;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 0.3em;
+  border-color: #fff;
+  background: #facb3c !important;
+  font-size: 1.6em;
+}
+
+.vjs5-hola-skin .vjs-progress-control .vjs-play-progress {
+  background: #ffc511 !important;
+}
+
+.vjs5-hola-skin .vjs-volume-bar.vjs-slider-horizontal .vjs-volume-level:before,
+.vjs5-hola-skin .vjs-volume-bar .vjs-volume-display:before {
+  display: block;
+  width: 1em;
+  height: 1em;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 0.3em;
+  border-color: #fff;
+  background: #ffc511 !important;
+  background-color: #fff;
+  top: -0.4em;
+  font-size: 1.2em;
+  z-index: 2;
+}
+.vjs5-hola-skin .vjs-control.vjs-button-icon,
+.vjs5-hola-skin .vjs-control > svg {
+  position: relative;
+  box-sizing: content-box;
+  display: inline-block;
+  width: 4.6em !important;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  top: 24% !important;
+}
+
+.vidlixPlayer
+  > .my-custom-class
+  > video
+  .vjs-tech
+  > div.vjs-control-bar
+  > div.vjs-progress-control.vjs-control
+  > div.vjs-progress-holder.vjs-slider.vjs-slider-horizontal
+  > div.vjs-play-progress.vjs-slider-bar {
+  content: none;
+  display: block;
+  width: 1em;
+  height: 1em;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 0.3em;
+  border-color: #fff;
+  background: #facb3c !important;
+  font-size: 1.6em;
+}

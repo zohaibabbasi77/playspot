@@ -1,0 +1,33 @@
+@import url("node_modules/@hola.org/videojs-settings/dist/videojs-settings.css");
+
+.vjs-ios-skin .vjs-settings-button,
+.vjs5-hola-skin .vjs-settings-button {
+    margin:0 1em !important;
+}
+
+.vjs-ios-skin .vjs-settings-button.vjs-quality-4k .vjs-button-icon:after, 
+.vjs-ios-skin .vjs-settings-button.vjs-quality-hd .vjs-button-icon:after, 
+.vjs5-hola-skin .vjs-settings-button.vjs-quality-4k .vjs-button-icon:after, 
+.vjs5-hola-skin .vjs-settings-button.vjs-quality-hd .vjs-button-icon:after {
+    content: '';
+    position: absolute;
+    background-color: #f10;
+    width: 1.3em !important;
+    height: .9em !important;
+    left: 2.8em !important;
+    bottom: 4em !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.vjs-settings-button.vjs-button-icon,
+.vjs-settings-button .vjs-button-icon svg {
+    position: relative;
+    box-sizing: content-box;
+    display: inline-block;
+    width: 4.2em !important;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0% !important;
+}

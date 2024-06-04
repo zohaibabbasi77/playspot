@@ -1,0 +1,315 @@
+.vjs-poster { background-size: contain !important; }
+.video-js.vjs-16-9 {
+padding-top: 33.25% !important;
+}
+.slider-info{
+    position: absolute;
+    top: 45vh;
+    margin-left: 10vw;
+}
+sup {
+    top: -1.5em;
+    color: #ec0080;
+}
+
+.icons img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+.btn-deikho{
+    border-radius: 5px;
+    width: 8rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-slider{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.slider-area{
+    padding-top: 4.2rem;
+}
+.btn-slider:hover{
+    color: #ec0080;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.content-info{
+    max-width: 27rem;
+}
+video{
+    /* transform: scale(1.4); */
+    width: 90vw!important;
+    transform: scale(1.2);
+}
+.mt--10{
+    margin-top: -9rem;
+}
+small{
+    font-style: italic;
+    color: white
+}
+.font-weight-bold{
+    font-weight: bold;
+}
+.content-info > p {
+    line-height: 18px;
+}
+nav.main-navigation ul li.active a{
+    color: #fff;
+}
+nav.main-navigation ul li.active a span{
+    background: #8fc31f;
+    border-radius: 5px;
+    padding: 0.2rem 0.5rem;
+}
+@media (min-width: 760px) and (max-width: 849px){
+    .slider-info{
+    position: absolute;
+    top: 32vh;
+    margin-left: 5vw;
+}
+}
+
+@media (min-width: 850px) and (max-width: 1100px){
+    .slider-info{
+    position: absolute;
+    top: 43vh;
+    margin-left: 5vw;
+}
+}
+@media (min-width: 1101px) and (max-width: 2900px){
+    .slider-info{
+    position: absolute;
+    top: 52vh;
+    margin-left: 10vw;
+}
+
+}
+@media (max-width: 767px){
+    video{
+        transform: scale(1);
+    }
+    .video-js.vjs-16-9 {
+        padding-top: 70.25% !important;
+     }
+
+    .slider-info{
+            position: absolute;
+            top: 27vh;
+            margin-left: 45vw;
+    }
+    .content-info{
+        display: none;
+    }
+}
+@media (max-width: 767px){
+    video{
+        transform: scale(1);
+        width: auto !important;
+    }
+    .video-js.vjs-16-9 {
+        padding-top: 70.25% !important;
+     }
+
+    .slider-info{
+            position: absolute;
+            top: 27vh;
+            margin-left: 45vw;
+    }
+    .content-info{
+        display: none;
+    }
+    .slider-area{
+        padding-top: 3.3rem;
+    }
+    .livetv-mySwiper {
+        padding: 0px 10px !important;
+    }
+}
+@media (max-width: 350px){
+    video{
+        transform: scale(1);
+    }
+    .video-js.vjs-16-9 {
+        padding-top: 75.25% !important;
+     }
+
+    .slider-info{
+            position: absolute;
+            top: 29vh;
+            margin-left: 40vw;
+    }
+    .content-info{
+        display: none;
+    }
+}
+
+/*--------------------- Zong tv css -----------------*/
+.notify-bar {
+    display: block;
+    width: 100%;
+    background: #222222;
+    padding: 5px 20px;
+}
+.flex {
+    margin: 15px 40px;
+}
+.inner-content {
+    display: flex;
+    justify-content: space-between;
+}
+.Live-tv .right i {
+    color: #fff;
+    background-color: #5f5f5f;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 50%;
+}
+span.red-span {
+    display: inline-block;
+    background: red;
+    padding: 0px 10px;
+}
+.left {
+    display: inline-block;
+    padding: 7px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.channel-logo {
+    display: inline-block;
+    width: 100%;
+    
+}
+.channel-heading {
+    margin: 20px 60px;
+    padding: 10px 0px;
+}
+
+/*------------------ swiper css ------------------*/
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.live-image {
+    height: 100% !important;
+    /* width: 100%; */
+    position: absolute !important;
+    z-index: 2;
+    top: 0;
+    right: 3px;
+}
+.swiper-slide img {
+    display: block;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.swiper-wrapper {
+    padding: 30px 0px;
+}
+
+.channel-logo {
+    position: relative;
+}
+
+.livetv-mySwiper .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+    color: #fff;
+    background: #ec0080;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.livetv-mySwiper .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    color: #fff;
+    background: #ec0080;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+
+.livetv-mySwiper .swiper-button-prev {
+    position: absolute;
+    top: 50px;
+    left: 88rem !important;
+}
+
+.livetv-mySwiper .swiper-button-next {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+h2.channel-section-title {
+    margin: 0px 50px;
+}
+@media screen and (min-width:767px){
+    .livetv-mySwiper {
+        padding: 0px 50px !important;
+    }
+}
+@media screen and (min-width:640px) and (max-width:767px) {
+    .live-image {
+        height: 100% !important;
+        /* width: 100%; */
+        position: absolute !important;
+        z-index: 2;
+        top: 0;
+        right: 3px;
+    }
+    .swiper-slide img {
+        width: 100%;
+        height: 200px;
+        object-fit: initial;
+    }
+}
+@media screen and (max-width:640px) {
+    .flex {
+        margin: 10px 0px;
+    }
+    .livetv-mySwiper .swiper-button-prev,
+    .livetv-mySwiper .swiper-button-next {
+        visibility: hidden;
+    }
+    .swiper-wrapper{
+        padding: 0px;
+    }
+    .live-image {
+        height: 100% !important;
+        /* width: 100%; */
+        position: absolute !important;
+        z-index: 2;
+        top: 0;
+        right: 5px;
+    }
+    .swiper-slide img {
+        width: 100%;
+        height: 70px !important;
+        object-fit: initial;
+    }
+    h2.channel-section-title {
+        margin: 0px 10px;
+    }
+
+}
+
